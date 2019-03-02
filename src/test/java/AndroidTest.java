@@ -118,7 +118,7 @@ public class AndroidTest {
         Object o[];
         o = battery.toArray();
         for(int i=0; i< o.length; i++){
-            //System.out.println(o[i]);
+            System.out.println(o[i]);
         }
 
         for(Object object : battery){
