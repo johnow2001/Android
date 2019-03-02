@@ -7,11 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.net.URL;
 import java.util.List;
 import java.util.Set;
-
 import static junit.framework.TestCase.assertEquals;
 
 public class PensionWebTest {
@@ -39,7 +37,6 @@ public class PensionWebTest {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.titleContains("GOV"));
         assertEquals("https://www.gov.uk/", driver.getCurrentUrl());
-
 
         MobileElement housing = driver.findElementByPartialLinkText("Housing and");
         System.out.println(housing.getText());
