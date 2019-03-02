@@ -122,7 +122,7 @@ public class AndroidTest {
         }
 
         for(Object object : battery){
-            //System.out.println(object);
+            System.out.println(object);
         }
 
         for(int i =0; i< battery.size(); i++){
@@ -131,6 +131,11 @@ public class AndroidTest {
             }
         }
 
+    }
+
+    @Test
+    public void test2App(){
+        //Test code here
     }
 
     @After
