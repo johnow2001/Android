@@ -136,6 +136,7 @@ public class AndroidTest {
 
     @After
     public void afterTest() {
+        //the close is for browser
         //driver.close();
         driver.quit();
         //driver.toggleWifi();
