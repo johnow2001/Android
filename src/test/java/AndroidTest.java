@@ -143,10 +143,6 @@ public class AndroidTest {
         //Test code here
     }
 
-    @Test
-    public void test4App(){
-        //Test code here
-    }
 
 
     @After
