@@ -133,27 +133,6 @@ public class AndroidTest {
 
     }
 
-    @Test
-    public void test2App(){
-        //Test code here
-    }
-
-    @Test
-    public void test3App(){
-        //Test code here
-    }
-
-    @Test
-    public void test4App(){
-        //Test code here
-    }
-
-    @Test
-    public void test5App(){
-        //Test code here
-    }
-
-
     @After
     public void afterTest() {
         //driver.close();
