@@ -133,13 +133,6 @@ public class AndroidTest {
 
     }
 
-    @Test
-    public void test2App(){
-        //Test code here
-    }
-
-
-
     @After
     public void afterTest() {
         //driver.close();
