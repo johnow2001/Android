@@ -133,38 +133,10 @@ public class AndroidTest {
 
     }
 
-    @Test
-    public void test2(){
-        //test code here
-    }
-
-    @Test
-    public void test3(){
-        //test code here
-    }
-
-    @Test
-    public void test4(){
-        //test code here
-    }
-
-    @Test
-    public void test5(){
-        //test code here
-    }
-
-    @Test
-    public void test6(){
-        //test code here
-    }
-    @Test
-
-    public void test7(){
-        //test code here
-    }
 
     @After
     public void afterTest() {
+        //the close is for browser
         //driver.close();
         driver.quit();
         //driver.toggleWifi();
