@@ -157,6 +157,11 @@ public class AndroidTest {
     public void test6(){
         //test code here
     }
+    @Test
+
+    public void test7(){
+        //test code here
+    }
 
     @After
     public void afterTest() {
