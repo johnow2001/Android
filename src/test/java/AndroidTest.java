@@ -153,6 +153,11 @@ public class AndroidTest {
         //test code here
     }
 
+    @Test
+    public void test6(){
+        //test code here
+    }
+
     @After
     public void afterTest() {
         //driver.close();
